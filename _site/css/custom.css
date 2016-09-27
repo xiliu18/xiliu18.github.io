@@ -1,0 +1,125 @@
+/*!
+customized css by Xi Liu
+ */
+
+body {
+    padding-top: 140px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    font-family: 'Lato', Arial, sans-serif;
+    font-size: 180%
+
+}
+
+/*html,body{
+    height: 100%
+}*/
+
+/* Links
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+a {
+    text-decoration: none;
+    color: #44BBA4; 
+}
+a:hover {
+  color: #3F88C5; 
+  text-decoration: underline;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 40px;
+  background-color: #f5f5f5;
+  font-size: 80%;
+  text-align: center;
+  /*vertical-align: middle;;*/
+}
+
+#myfooter{
+	margin-top: 8px;
+}
+
+/* Customize NavBar*/
+#myname{
+	font-size: 5rem;
+	color: #F6F7EB;
+}
+
+.navbar-brand,
+.navbar-nav li a {
+    line-height: 80px;
+    height: 80px;
+    padding-top: 0;
+    font-size: 2rem;
+}
+
+.navbar-default {
+  background-color: #393e41;
+  border-color: #5c6368;
+}
+.navbar-default .navbar-brand {
+  color: #a5a59d;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #44bba4;
+}
+.navbar-default .navbar-text {
+  color: #a5a59d;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #a5a59d;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #F6F7EB; 
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #44bba4;
+  background-color: #5c6368;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #44bba4;
+  background-color: #5c6368;
+}
+.navbar-default .navbar-toggle {
+  border-color: #5c6368;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #5c6368;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #a5a59d;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #a5a59d;
+}
+.navbar-default .navbar-link {
+  color: #a5a59d;
+}
+.navbar-default .navbar-link:hover {
+  color: #44bba4;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #a5a59d;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #44bba4;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #44bba4;
+    background-color: #5c6368;
+  }
+}
