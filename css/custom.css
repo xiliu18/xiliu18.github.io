@@ -123,3 +123,57 @@ a:hover {
     background-color: #5c6368;
   }
 }
+
+/*pub on research page*/
+.pubt {
+  font-size: 22px;
+  font-weight:400;
+  color: #000;
+}
+@media (max-width: 768px) {
+  .pubt {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+  }
+  .pubd {
+    text-align: justify;
+    color:#393E41;
+  }
+}
+.pubd {  
+  font-size: 18px;
+  font-weight: 300;
+  color:#393E41;
+}
+.pubimg {
+  text-align: center;
+}
+.pubimg img {
+  max-width: 100%;
+}
+.puba {
+  font-size: 18px;
+  color: #E94F37;
+}
+.pubv {
+  color: #090;
+  font-size: 16px;
+}
+.publ {
+  padding-top: 10px;
+}
+.publ li {
+  border: 1px solid #CCC;
+  padding: 5px;
+  margin: 5px 2px;
+  display: inline-block;
+}
+.pubwrap {
+  padding-bottom: 20px;
+  margin-bottom: 50px;
+  border-bottom: 1px solid #DDD;
+}
+.pub {
+}
