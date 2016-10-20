@@ -48,6 +48,10 @@ a:hover {
 	color: #F6F7EB;
 }
 
+#myname:hover{
+  color: #44bba4;
+}
+
 .navbar-brand,
 .navbar-nav li a {
     line-height: 80px;
@@ -75,7 +79,8 @@ a:hover {
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #F6F7EB; 
+  /*color: #F6F7EB; */
+  color: #44bba4;
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
@@ -126,6 +131,13 @@ a:hover {
   }
 }
 
+#active{
+  color: #F6F7EB;
+}
+
+#active:hover{
+  color: #44bba4;
+}
 /*pub on research page*/
 .pubt {
   font-size: 22px;
