@@ -169,7 +169,8 @@ a:hover {
 }
 .puba {
   font-size: 18px;
-  color: #E94F37;
+  /*color: #E94F37;*/
+  color: #3F88C5; 
 }
 .pubv {
   color: #090;
