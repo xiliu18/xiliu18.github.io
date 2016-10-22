@@ -138,6 +138,7 @@ a:hover {
 #active:hover{
   color: #44bba4;
 }
+
 /*pub on research page*/
 .pubt {
   font-size: 22px;
@@ -195,4 +196,21 @@ a:hover {
 
 #conbot{
   padding-bottom: 30px;
+}
+
+/*for publication page*/
+.bluet{
+  color: #3F88C5;
+}
+
+.thickt{
+  font-weight: bold;
+}
+
+.btpad{
+  padding-bottom: 50px;
+}
+
+.italict{
+  font-style: italic;
 }
